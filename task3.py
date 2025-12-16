@@ -34,9 +34,9 @@ def get_purchase_info():
     input('What is the price of the item?')
     input('What quantity of the item did you buy?')
     return item, price, quantity
-int('item')
 int('price')
 int('quantity')
+
 
 
 # Only get input if NOT testing
@@ -60,5 +60,4 @@ print("--------------------------")
 print(f'Subtotal: ${subtotal}')
 print(f'Tax: ${tax}')
 print(f'Total: ${total}')
-print("\nThank you for shopping at\nthe Peculiar Emporium!")#AFTER PASTING YOUR ANSWER YOU MUST REMOVE THE LINE "import s"
-#YOUR CODE WILL FAIL IF YOU DO NOT DELETE THE LINE!!!!!!!!!!!!!
+print("\nThank you for shopping at\nthe Peculiar Emporium!")

@@ -1,7 +1,7 @@
 
 
 # Testing flag - will be set by test
-TESTING = True
+TESTING = False
 item = None
 price = None
 quantity = None
